@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Box, Button, Typography } from "@mui/material";
-import UserProfileTable from "./UserProfiletable";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
+import UserProfileTable from "./UserProfileTable";
 const ChampionsSection = () => {
   const [activeTab, setActiveTab] = useState("All");
 
